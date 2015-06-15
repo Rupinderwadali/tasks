@@ -1,0 +1,24 @@
+#menu{
+ width:550px;
+ height:35px;
+ font-size:16px;
+ font-family:Tahoma, Geneva, sans-serif;
+ font-weight:bold;
+ text-align:centre;
+ background-color: #8AD9FF;
+ 
+}
+#menu ul {
+    height: auto;
+    padding: 8px ;
+    margin: 0px;
+}
+#menu li { 
+display: inline; 
+padding: 20px; 
+}
+
+#menu a:hover {
+    color: #F90;
+    background-color:"royal-blue";
+}
