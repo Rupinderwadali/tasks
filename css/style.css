@@ -1,24 +1,69 @@
-#menu{
- width:550px;
- height:35px;
- font-size:16px;
- font-family:Tahoma, Geneva, sans-serif;
- font-weight:bold;
- text-align:centre;
- background-color: #8AD9FF;
- 
-}
-#menu ul {
-    height: auto;
-    padding: 8px ;
-    margin: 0px;
-}
-#menu li { 
-display: inline; 
-padding: 20px; 
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);   
+
+body{
+	margin:0;
+	padding:0;
 }
 
-#menu a:hover {
-    color: #F90;
-    background-color:"royal-blue";
+#menu, #menu1 {
+ height:35px;
+ margin:0px;	
+ font-size:16px;
+ font-family: 'Hind', sans-serif;
+ text-transform: uppercase;
+ text-align:center;
+ background-color: #2190c7;
+ opacity:0.3;
 }
+
+#menu1 {
+ height:200px;
+ width:170px;
+ margin:0px;
+ font-size:16px;
+ font-family: 'Hind', sans-serif;
+ text-transform: uppercase;
+ text-align: center;
+ background-color: #2190c7;
+ opacity:0.3;
+}
+
+#menu li { 
+width:50px;
+height:10px;
+padding-left:5em;
+
+display:inline;
+
+}
+#menu1 li {
+width:10px;
+height:60px;
+}
+#menu1 ul{
+margin:0px;
+padding:0px;
+}
+#menu {
+    padding:0px;
+    color: #fff;
+    line-height:40px;
+    text-decoration:none;
+}
+
+
+#menu a:hover{
+  color:#2190c7;
+ background:#fff;
+}
+#menu1 a:hover{
+ color:#2190c7;
+ background:#fff;
+}
+
+
+.image img{
+	margin-left:50px;
+	margin-top:50px;
+}
+

@@ -1,0 +1,41 @@
+<html>
+<head>
+<script>
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3jquery.min.js"
+</script>
+<title>
+My First Site
+</title>
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+<div id="menu">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</div>
+<div id="image">
+<img style="float:right;" src="css/img.png" alt="menu button">
+</div>
+<div id="menu1">
+<ul>
+<li><a href="#">Projects</a></li>
+<li><a href="#">Videos</a></li>
+<li><a href="#">Blogs</a></li>
+</ul>
+</div>
+</div>
+</body>
+<script>
+$("#image").click(function(){
+$("#menu").slideToggle("slow");
+});
+</script>
+
+</html>
+
