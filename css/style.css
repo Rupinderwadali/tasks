@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);   
 
-body{
+body{      
 	margin:0;
 	padding:0;
 }
@@ -13,10 +13,9 @@ body{
  text-transform: uppercase;
  text-align:center;
  background-color: #2190c7;
- opacity:0.3;
+ opacity:0.8;
 
 }
-
 #menu1 {
  height:100%;
  width:170px;
@@ -25,7 +24,7 @@ body{
  text-transform: uppercase;
  text-align: center;
  background-color: #2190c7;
- opacity:0.3;
+ opacity:0.8;
 }
 
 #menu li { 

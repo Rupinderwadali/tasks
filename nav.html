@@ -2,13 +2,12 @@
 <head>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
-
 <title>
 My First Site
 </title>
 <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<body background="images.jpg">
 <div class="container">
 <div id="menu">
 <ul>
@@ -34,14 +33,14 @@ My First Site
 <script type="text/javascript" language="javascript">
 $("#image").hover(
  function(){
-     $("#menu").slideUp(500);
+     $("#menu1").slideUp(500);
   }, function() {
-     $("#menu").slideDown(500);
+     $("#menu1").slideDown(500);
 });
 
 
 $("#image").click(function(){
-  $("#menu1").toggle("slide");
+  $("#menu").toggle("slide");
 });
 
 
